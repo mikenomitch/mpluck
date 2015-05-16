@@ -13,5 +13,4 @@ ActiveRecord::Relation.class_eval do
     end
   end
   alias :multipluck_by_id :mpluck_by_id
-
 end
