@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["mnomitch@instructure.com"]
   spec.summary       = %q{multipluck helper for Rails 2 and 3}
   spec.description   = %q{multipluck helper for Rails 2 and 3}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/mikenomitch/mpluck"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
