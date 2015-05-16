@@ -25,11 +25,13 @@ Or install it yourself as:
 
 ## Usage
 
-    $ Foo.where(bar: "baz").mpluck(:id, :qux, :woz)
+    $ Foo.where(bar: "baz").multipluck(:id, :qux, :woz)
 
 also added a grouping option
 
-     $ Foo.where(bar: "baz").grouped_mpluck(:id, [:qux, :woz])
+     $ Foo.where(bar: "baz").grouped_multipluck(:id, [:qux, :woz])
+
+:mpluck and :grouped_mpluck are respectively aliases for :multipluck and :grouped_mpluck
 
 ## Contributing
 
