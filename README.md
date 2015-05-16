@@ -25,13 +25,11 @@ Or install it yourself as:
 
 ## Usage
 
-Foo.where(bar: "baz").mpluck(:id, :qux, :woz)
-`=> [{id: 1, quz: "val", wox: "val"}, {id: 2, quz: "val", wox: "val"}]`
+    $ Foo.where(bar: "baz").mpluck(:id, :qux, :woz)
 
 also added a grouping option
 
-Foo.where(bar: "baz").grouped_mpluck(:id, [:qux, :woz])
-`=> {1 => {quz: "val", wox: "val"}, 2 => {quz: "val", wox: "val"}}`
+     $ Foo.where(bar: "baz").grouped_mpluck(:id, [:qux, :woz])
 
 ## Contributing
 
